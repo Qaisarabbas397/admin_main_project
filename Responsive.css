@@ -1,0 +1,357 @@
+ @media (max-width:1024px) {
+    .info{
+        max-width: 100%;
+    }
+    .info p{
+        max-width: 600px;
+        padding-top: 14px;
+        font-size: 17px;
+    }
+    .user-infomation {
+        max-width: 695px;
+    }
+    
+    .title-parent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .user-infomation {
+        height: auto;
+    }
+}
+
+@media (max-width:991px) { 
+   .info p{
+        padding-top: 14px;
+        font-size: 16px;
+    }
+    .user-infomation {
+        max-width: 400px;
+    
+}
+.title-parent input  {
+    max-width: 300px;
+}
+.arrow-div input{
+    max-width: 300px;
+}
+
+}  
+
+/* Desktop */
+@media (min-width: 1024px) {
+    .container {
+      width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      padding-top: 63px;
+      gap: 35px;
+    }
+  
+    .user-data {
+      width: 292px;
+      height: 327px;
+    }
+  
+    .user-pic {
+      width: 46px;
+      height: 46px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+      width: 100%;
+      margin: 0 15px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 40px;
+      gap: 20px;
+    }
+  
+    .user-data {
+      width: 100%;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  
+    .search-field {
+      width: 250px;
+      height: 36px;
+    }
+  }
+  @media (max-width: 767px) {
+    .container {
+      width: 100%;
+      margin: 0 10px;
+      display: flex;
+      flex-direction: column;
+      padding-top: 20px;
+      gap: 10px;
+    }
+  
+    .user-data {
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+  
+    .search-field {
+      width: 100%;
+      height: 36px;
+    }
+  
+    .user-pic {
+      width: 40px;
+      height: 40px;
+    }
+  
+    .option {
+      padding: 8px 15px;
+    }
+  
+    .button-div button {
+      width: 100%;
+      height: 50px;
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+    .feed-back {
+      width: 1000px;
+      height: 900px;
+    }
+    .feed-title h4 {
+      font-size: 28px;
+    }
+    .feed-input input {
+      width: 950px;
+      height: 70px;
+    }
+    .feed-input button {
+      width: 950px;
+      height: 70px;
+    }
+    .payment-method {
+      width: 1000px;
+      height: 650px;
+    }
+    .payment-img h4 {
+      font-size: 22px;
+    }
+    .wish-list {
+      width: 1000px;
+      height: 130px;
+    }
+    .wish-list .wish-title h4 {
+      font-size: 26px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .feed-back {
+      width: 900px;
+      height: 800px;
+    }
+    .feed-title h4 {
+      font-size: 24px;
+    }
+    .feed-input input {
+      width: 850px;
+      height: 60px;
+    }
+    .feed-input button {
+      width: 850px;
+      height: 60px;
+    }
+    .payment-method {
+      width: 900px;
+      height: 600px;
+    }
+    .payment-img h4 {
+      font-size: 20px;
+    }
+    .wish-list {
+      width: 900px;
+      height: 130px;
+    }
+    .wish-list .wish-title h4 {
+      font-size: 24px;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    .feed-back {
+      width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+    .feed-title {
+      padding-left: 20px;
+    }
+    .feed-title h4 {
+      font-size: 22px;
+    }
+    .feed-input input {
+      width: 100%;
+      height: 50px;
+    }
+    .feed-input button {
+      width: 100%;
+      height: 50px;
+    }
+    .payment-method {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+    .payment-img h4 {
+      font-size: 18px;
+    }
+    .wish-list {
+      width: 100%;
+      height: auto;
+      padding: 20px;
+    }
+    .wish-list .wish-title h4 {
+      font-size: 22px;
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+    .wish-experience,
+    .fav-choice,
+    .change-password {
+      width: 1000px;
+    }
+    .review-btn {
+      width: 150px;
+      height: 50px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .wish-experience {
+      width: 90%;
+      height: auto;
+      flex-direction: column;
+      padding: 20px;
+    }
+    .fav-choice {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+    .change-password {
+      width: 90%;
+      height: auto;
+      padding: 20px;
+    }
+    .review-btn {
+      width: 150px;
+      height: 50px;
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .wish-experience,
+    .fav-choice,
+    .change-password {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      padding: 15px;
+    }
+    .title-dil {
+      flex-direction: column;
+    }
+    .price-div-1 h3 {
+      left: 0;
+      bottom: 0;
+      text-align: center;
+    }
+    .three-card {
+      flex-direction: column;
+      align-items: center;
+    }
+    .three-card-content {
+      width: 100%;
+    }
+    .review-tabs {
+      flex-direction: column;
+    }
+    .review-btn {
+      width: 100%;
+      height: 60px;
+      font-size: 16px;
+    }
+  }
+
+@media only screen and (min-width: 1024px) {
+    .pending-card,
+    .complete-review-card {
+      width: 1000px;
+    }
+    .pending-price button {
+      width: 180px;
+      height: 36px;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .pending-card,
+    .complete-review-card {
+      width: 90%;
+      height: auto;
+      flex-direction: column;
+      padding: 20px;
+    }
+    .pending-price,
+    .pending-date {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .pending-price button {
+      width: 100%;
+      height: 40px;
+    }
+    .bio-complete {
+      width: 100%;
+      height: auto;
+      padding: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .pending-card,
+    .complete-review-card {
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      padding: 15px;
+    }
+    .pending-card-content,
+    .complete-card-content {
+      width: 100%;
+      padding: 10px;
+    }
+    .pending-price,
+    .pending-date {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .pending-price button {
+      width: 100%;
+      height: 40px;
+    }
+    .bio-complete {
+      width: 100%;
+      height: auto;
+      padding: 15px;
+    }
+    .complete-title {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+        

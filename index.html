@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+  />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Responsive.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="//unpkg.com/alpinejs" defer></script>
+
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid nav_container">
+  
+          <!-- Left Side: Brand and Search -->
+          <div class="d-flex align-items-center">
+              <a class="navbar-brand" href="#">
+                <img src="./images/Link → logo.png.png" alt="" />
+              </a>
+              <form class="position-relative d-none d-lg-block"> 
+                  <input class="form-control nav-search ps-5" type="search" placeholder="Search" aria-label="Search">
+                  <img class="search-icon" src="./images/Vector.png" alt="Search Icon">
+              </form>
+          </div>
+  
+          <!-- Mobile Toggle Button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <!-- Right Side: Navigation Links -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto text-center">
+                  <li class="nav-item">
+                      <a class="nav-link active" href="#">
+                          <img src="./images/SVG.png" alt="Chat Icon"> Chat with an expert
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Help</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Wish List</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Cart</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <img class="user-pic" src="./images/Ellipse 18.png" alt="" />
+                      </a>
+                  </li>
+              </ul>
+  
+              <!-- Search Field for Mobile -->
+              <form class="position-relative d-lg-none mt-2"> 
+                  <input class="form-control nav-search ps-5" type="search" placeholder="Search" aria-label="Search">
+                  <img class="search-icon" src="./images/Vector.png" alt="Search Icon">
+              </form>
+  
+          </div>
+  
+      </div>
+  </nav>
+    
+        
+    <!-- User panel -->
+    <div class="parent-container">
+      <div class="container">
+        <div class="side-info">
+          <div class="user-data">
+            <img class="vector-2" src="./images/Vector 2 (Stroke).png" alt="" />
+            <img class="vector-3" src="./images/Vector 3 (Stroke).png" alt="" />
+            <img src="./images/Ellipse 19.png" alt="" />
+            <h4>Shahzaib Khan</h4>
+            <p>abc123@gmail.com</p>
+          </div>
+          <div class="side-options">
+            <div class="option active" style=" border-left: 4px solid #ee8e3b;" data-tab="personal-info">
+              <a href="" style="color: #ee8e3b ; " class="icon"><i class="fa-regular fa-id-badge fs-4"></i></a>
+              <a  href="#" style="color: #ee8e3b ; " class="red-text">Personal Info</a>
+            </div>
+            <div class="option active"  data-tab="bookings">
+              <a href="" class="icon"><i class="fa-regular fa-id-badge"></i></a>
+              <a  href="booking.html"  class="red-text">Booking</a>
+            </div>
+            <div class="option" data-tab="history">
+              <img src="./images/Group 1261153257.png" alt="" />
+               
+              <a href="history.html" class="">History</a>
+            </div>
+            <div class="option" data-tab="reviews">
+              <img src="./images/Group 1261153273.png" alt="" />
+               
+              <a href="review.html">Reviews</a>
+
+            </div>
+            <div class="option" data-tab="payment-method">
+              <img src="./images/Group 1261153274.png" alt="" />
+               
+              <a href="payment.html">Payment Method</a>
+
+            </div>
+            <div class="option" data-tab="wishlist">
+              <img src="./images/Vector (1).png" alt="" />
+               
+              <a href="wishlist.html">Wishlist</a>
+
+            </div>
+            <div class="option" data-tab="settings">
+              <img src="./images/Group 1261153258.png" alt="" />
+               
+              <a href="setting.html" class="">Setting</a>
+            </div>
+            <div class="option" data-tab="leave-feedback">
+              <img src="./images/Group 1261153275.png" alt="" />
+               
+              <a href="feedback.html">Leave Feedback</a>
+            </div>
+          </div>
+        </div>
+          
+        
+          
+          <!-- Content Sections -->
+          <div class="tab-content active " id="personal-info">
+            <div class="user-info row ">
+              <div class="info col-lg-12 ">
+                <div class="h4-line">
+                  <!-- <img src="./images/Rectangle 24.png" alt="" /> -->
+                   
+                  <h4>Personal info</h4>
+                  <p>
+                    We'll only use this info to personalize your experience on RAH
+                    TOURS. Your details will be stored securely and won't be made
+                    public.
+                  </p>
+                </div>
+              </div>
+             
+                <div class="user-infomation bg-white col-lg-12  mt-4">
+                  <form action="" class="col-md-12 col-sm-12 p-3 ">
+                    <div class="col-md-5">
+                      <label for="form_select" class="form-label">Title</label>
+                      <select class="form-select " aria-label="Default select example">
+                        <option selected>Mr / Mis</option>
+                        <option value="Mr">Mr.</option>
+                        <option value="Mis">Mrs.</option>
+                      </select>
+                    </div>
+                    
+                    <div class="d-flex ">
+                      <div class="mb-3 mt-3 col-md-5">
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your First Name">
+                      </div>
+                      <div class="mb-3 mt-3 col-md-5 ms-3">
+                        <label for="exampleFormControlInput1" class="form-label">Last Name</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Last Name">
+                      </div>
+                    </div>
+                    <div class="d-flex ">
+                      <div class="mb-3 mt-3 col-md-5">
+                        <label for="exampleFormControlInput1" class="form-label">Date of Birth</label>
+                        <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3 mt-3 col-md-5 ms-3">
+                        <label for="form_select" class="form-label">Country/region of residence</label>
+                        <select class="form-select " aria-label="Default select example">
+                        <option selected>Open this select menu</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="Mangolia">Mangolia.</option>
+                      </select>
+                      </div>
+                    </div>
+                    <div class="row mt-5 ">
+                      <div class="col-md-6 col-lg-8">
+                        <button class="btn btn-light px-5 py-3 cancel-btn">Cancel</button>
+                        <button class="btn btn-warning save-btn px-5 py-3 ms-3">Save</button>
+                      </div>
+
+                    </div>
+                    
+    
+                  </form>
+                
+              </div>
+            </div>
+          </div>
+
+              </form>
+            </div>
+           </div>
+          </div>
+      
+      </div>
+    </div>
+
+  </body>
+</html>
